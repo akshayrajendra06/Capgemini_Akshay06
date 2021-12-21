@@ -1,12 +1,14 @@
 package Opps_Program;
 
-class akshay{
+
+
+class A_kshay{
 	void bhu() {
 		System.out.println("Hii Monu Where are you now bro");
 	}
 }
 
-class monu extends akshay{
+class M_onu extends A_kshay{
 	void shi_On() {
 		System.out.println("Here bro I am Fine ");
 	}
@@ -28,7 +30,7 @@ class Swet extends Mahi{
 }
 
 
-class Sachin extends monu{
+class Sachin extends M_onu{
 	
 	void shi_On() {
 		System.out.println("I am in Jalgon :");
@@ -40,7 +42,7 @@ class Sachin extends monu{
 	int bo=5000;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		monu M = new monu();
+		M_onu M = new M_onu();
 		Inheritance_Java p =new Inheritance_Java();
 		System.out.println("Emplyee Class Extends \\ float sa=4000  :"+p.sa);
 		System.out.println("Inheritance_Java  extends Employee \\int bo=5000  :"+p.bo);

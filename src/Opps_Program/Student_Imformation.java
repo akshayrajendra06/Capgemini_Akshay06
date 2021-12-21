@@ -18,7 +18,7 @@ class Employee_all{
 	}
 }
 //Another class created as  - Student
-class Student{
+class Student_p{
 	String branch;
 	String Usn;
 	String semester;
@@ -29,7 +29,7 @@ class Student{
 	String contactno;
 	//Parameterized constructor
 	// With initialized student informations.
-	public Student(String branch,String Usn,String semester,int rollno,String sname,int age,String section, String contactno){
+	public Student_p(String branch,String Usn,String semester,int rollno,String sname,int age,String section, String contactno){
 		this.branch=branch;
 		this.Usn=Usn;
 		this.semester=semester;
@@ -55,7 +55,7 @@ public class Student_Imformation {
 		
 		//Create a object for the class and passing the
 				//Parameters to the constructor for the class Student
-				Student sobj=new Student("CSE","1RE11CS041","7",041,"SACHIN A",28,"A","b848L8505050");
+				Student_p sobj=new Student_p("CSE","1RE11CS041","7",041,"SACHIN A",28,"A","b848L8505050");
 				//Displaying the student information
 				sobj.display();
 
